@@ -27,7 +27,6 @@ namespace ListaDeEsperaPacientes.Models
 
         [Required]
         [StringLength(50)]
-        [EmailAddress(ErrorMessage = "Digite um e-mail válido")]
         [DisplayName("E-mail")]
         public string Email { get; set; }
 

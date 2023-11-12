@@ -177,7 +177,7 @@ namespace ListaDeEsperaPacientes
         {
             CapturarLinhaClicadaNaGridView();
         }
-                
+
         private void CapturarLinhaClicadaNaGridView()
         {
             if (grdCadastro.Rows.Count > 0)

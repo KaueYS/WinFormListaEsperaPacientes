@@ -7,13 +7,13 @@ namespace ListaDeEsperaPacientes.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class primeiraMigracao : IMigrationMetadata
+    public sealed partial class priemeira : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(primeiraMigracao));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(priemeira));
         
         string IMigrationMetadata.Id
         {
-            get { return "202310171040258_primeiraMigracao"; }
+            get { return "202311121501214_priemeira"; }
         }
         
         string IMigrationMetadata.Source

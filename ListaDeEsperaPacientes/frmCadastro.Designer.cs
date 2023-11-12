@@ -62,6 +62,7 @@
             grdCadastro.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             grdCadastro.Location = new Point(12, 214);
             grdCadastro.Name = "grdCadastro";
+            grdCadastro.ReadOnly = true;
             grdCadastro.RowHeadersVisible = false;
             grdCadastro.RowTemplate.Height = 25;
             grdCadastro.SelectionMode = DataGridViewSelectionMode.FullRowSelect;

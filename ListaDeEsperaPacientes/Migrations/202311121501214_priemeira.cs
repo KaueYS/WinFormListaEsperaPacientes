@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class primeiraMigracao : DbMigration
+    public partial class priemeira : DbMigration
     {
         public override void Up()
         {
@@ -16,6 +16,7 @@
                         Telefone = c.String(nullable: false, maxLength: 15),
                         Email = c.String(nullable: false, maxLength: 50),
                         DataCadastro = c.DateTime(nullable: false),
+                        Observacao = c.String(maxLength: 200),
                         Finalizado = c.Boolean(nullable: false),
                     })
                 .PrimaryKey(t => t.Id);
